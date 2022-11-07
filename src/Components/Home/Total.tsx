@@ -6,7 +6,7 @@ type Props = {}
 
 const Total = (props: Props) => {
   return (
-    <Grid alignItems={'center'} container item xs={12} md={4} bgcolor={'secondary.light'}p={1}borderRadius={2} my={2} >
+    <Grid alignItems={'center'} container item xs={12} md={4} bgcolor={'secondary.light'}p={1}borderRadius={2} my={2}color={'#fff'}>
         <Grid item xs ={6}>
             <Typography>
                 موجودی

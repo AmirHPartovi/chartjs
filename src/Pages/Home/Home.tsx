@@ -9,7 +9,7 @@ type Props = {}
 
 const Home = (props: Props) => {
   return (
-    <Grid container p={2}>
+    <Grid container p={2} direction={'column'} alignItems={'space-around'}>
         <Header/>
         <Total/>
         <MoneyCard backgroundColor={'success.light'} title={'هزینه ها'} icon={<TrendingUpIcon/>}/>
