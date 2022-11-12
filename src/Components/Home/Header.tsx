@@ -14,7 +14,7 @@ const Header = (props: Props) => {
                 </Typography>
             </Grid>
             <Grid item xs={6}>
-                <Link to={'/addMoney'}>
+                <Link to={'/addMoney'} style={{textDecoration:'none'}}>
                 <Button variant='contained' sx={{bgcolor:"#fff" , color:'secondary.dark'}}>
                     <Typography >
                         دخل و خرج جدید
