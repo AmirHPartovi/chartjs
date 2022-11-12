@@ -1,6 +1,6 @@
 export interface MoneyType{
     id:number,
-    type: 'income' | 'expense',
+    type: 'income' | 'expense' |'',
     title:string,
-    price:number
+    price:string
 }

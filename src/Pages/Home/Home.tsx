@@ -12,8 +12,13 @@ const Home = (props: Props) => {
     <Grid container p={2} direction={'column'} alignItems={'space-around'}>
         <Header/>
         <Total/>
-        <MoneyCard backgroundColor={'success.light'} title={'هزینه ها'} icon={<TrendingUpIcon/>}/>
-        <MoneyCard backgroundColor={'error.light'} title={'خرج ها'} icon={<TrendingDownIcon/>}/>
+        <Grid container item xs={12} sx={{direction:{ xs: "column", md: "row"}}}>
+          
+            <MoneyCard backgroundColor={'success.light'} title={'درآمد ها'} icon={<TrendingUpIcon/>}type={'income'}/>
+          
+            <MoneyCard backgroundColor={'error.light'} title={'هزینه ها'} icon={<TrendingDownIcon/>}type={'expense'}/>
+          
+        </Grid>
     </Grid>
 
   )
